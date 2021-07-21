@@ -5,7 +5,7 @@ Este projetinho foi feito para exercitar a aprender mais sobre HTML5, CSS3 e pri
 ## Índice
 - [Visão geral](#visão-geral)
   - [O desafio](#o-desafio)
-  - [Links](#links)
+  - [Link](#link-do-projeto)
 - [Meu processo](#meu-processo)
   - [Criado com](#criado-com)
   - [O que eu aprendi](#o-que-eu-aprendi)
