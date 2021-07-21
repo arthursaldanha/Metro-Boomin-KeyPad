@@ -1,0 +1,110 @@
+* {
+   padding: 0;
+   border: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background-color: hsl(0, 0%, 20%);
+}
+
+h1 {
+   margin-bottom: 20px;
+
+   font-family: "Inter", sans-serif;
+   font-size: 55px;
+   font-weight: 700;
+}
+
+.fill {
+   background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+   
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.keys {
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   gap: 15px;
+   margin-bottom: 20px;
+}
+
+.key {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   width: 100px;
+   height: 100px;
+   
+   background-color: hsl(0, 0%, 20%);
+   border: 7px solid #000;
+   border-radius: 5px;
+   color: #fff;
+
+   font-family: "Inter", sans-serif;
+   font-size: 35px;
+   font-weight: 700;
+}
+
+.active {
+   border: 7px solid #08AEEA;
+}
+
+.composer {
+   display: flex;
+   margin-bottom: 15px;
+   height: 50px;
+}
+
+.composer #input {
+   width: 300px;
+   height: 100%;
+   padding-left: 10px;
+   
+   font-size: 20px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+
+   border-radius: 8px 0 0 8px;
+}
+
+.composer button {
+   height: 100%;
+   padding: 0 20px;
+   
+   background-color: #36da52;
+   color: #fff;
+
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+
+   border-radius: 0 8px 8px 0;
+
+   cursor: pointer;
+}
+
+footer {
+   font-size: 16px;
+   font-weight: 700;
+   font-family: "Inter", sans-serif;
+   color: #fff;
+}
+
+footer a {
+   text-decoration: none;
+   color: #36da52;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
